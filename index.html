@@ -185,6 +185,79 @@ body {
   animation: pulse 2.5s ease-in-out infinite;
 }
 @keyframes pulse { 0%,100%{opacity:0.4} 50%{opacity:0.9} }
+  @media (max-width: 768px) {
+    width: 50px;
+    height: 50px;
+    font-size: 46px;
+  }
+
+  .star-btn {
+    transform: scale(0.9);
+  }
+
+  .star-btn:hover {
+    transform: scale(1);
+  }
+
+  .star-icon {
+    font-size: 2.5rem !important;
+  }
+
+  .star-name {
+    font-size: 0.95rem;
+  }
+
+  .sky .star-btn:nth-of-type(1) {
+    left: 10px !important;
+    top: 140px !important;
+  }
+
+  .sky .star-btn:nth-of-type(2) {
+    left: 120px !important;
+    top: 40px !important;
+  }
+
+  .sky .star-btn:nth-of-type(3) {
+    right: 10px !important;
+    left: auto !important;
+    top: 170px !important;
+  }
+
+  .card {
+    width: 95%;
+    padding: 24px 18px;
+    border-radius: 22px;
+  }
+
+  .card-photo {
+    width: 110px;
+    height: 110px;
+  }
+
+  .card-name {
+    font-size: 1.5rem;
+  }
+
+  .card-message {
+    font-size: 1.1rem;
+    line-height: 1.4;
+  }
+
+  .card-close {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+  }
+
+  .hint {
+    margin-top: 10px;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 0.75rem;
+  }
+}
+
+</style>
 </style>
 </head>
 <body>
